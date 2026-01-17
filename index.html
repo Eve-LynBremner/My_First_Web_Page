@@ -1,20 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Eve-Lyn Bremner - Personal Portfolio</title>
 </head>
+
 <body>
-    <h1>Eve-Lyn Bremner</h1>
-    <img src=".\profile_pic.jpg" width="200" alt="my profile picture">
-    <h3>Bio</h3>
-    <p>I am a data analyst who enjoys coding, sushi, and wine (not necessarily in that order).</p>
-    <p>If you'd like to know more, feel free to <a href="mailto:email@gmail.com">email me</a>, follow me on my social media channels, or contact me using the form at the bottom of this page.</p>
-    <ul>
-        <li><a href="Instagram.com">Instagram</a></li>
-        <li><a href="Facebook.com">Facebook</a></li>
-    </ul>
-    <br>
+
+    <header>
+        <h1>Eve-Lyn Bremner</h1>
+    </header>
+
+    <nav>
+        <a href = "#About">About</a>
+        <a href = "#Projects">Projects</a>
+        <a href = "#Contact">Contact</a>
+    </nav>
+
+    <main>
+        <section class = "about"> 
+            <img src=".\profile_pic.jpg" alt="profile_pic" height="250px">
+            <p class = "about_paragraph">Hi, and welcome to my porfolio page. My name is Eve-Lyn. I am an analytical professional with experience in the financial services industry, specialising in Data Reporting and Testing. 
+            Experienced using Excel, SAS Enterprise Guide, and SQL Server Management Studio to enhance analytical thinking and problem-solving 
+            capabilities. Familiar with Agile Methodology (Scrum) and tools such as Jira, Confluence, and Microsoft SharePoint to support 
+            collaborative projects. Data Analyst by day, and aspiring Software Developer by night, with foundational skills in Python, Java, CSS, HTML, and JavaScript.</p>
+        </section>
+
+        <br>
+        <section class = articles>
+        <article class = "freelance">
+            <div class = "freelance_div">
+                <h2>Freelance Data Project</h2>
+                <h3>Company - Bespoke Jewellers in Surrey</h3> 
+                <p> The Problem - Workshop Manager and Sales team manually logging job packets
+                    into Google Spreadsheets. Resulting in input errors, invalid entries, and
+                    a suboptimal reporting structure.</p>
+                <p> The solution - Created an easy to use Job-Logging System in Google Sheets
+                    that:</p>
+                <!-- <ul> -->
+                    <li>automatically inserts data into their log book</li>
+                    <li>updates certain fields without requiring the user to open the log book</li>
+                    <li>pulls up job info without having to search through the underlying data</li>
+                    <li>enables a high standard of reporting</li>
+                <!-- </ul> -->
+                <p> Data validation was added to increase accuracy, a simple layout was used to make 
+                    it user friendly. Processes were re-evaluated to ensure consistency, and 
+                    additional fields were introduced to allow for more in depth and informative
+                    reporting.</p>
+            </div>
+            <img class="freelance_img" src=".\freelance.png" width="350px" alt="job logging system user interface">
+        </article>
+
+        <article class = "personal">
+            <div class = "personal_div">
+                <h2>Personal Project</h2>
+                <h3>Concept - Create an app for Wine Lovers</h3> 
+                <p> I enjoy good wine, and have been to many wine farms sampling their ranges. The 
+                    problem I have is trying to remember the different experiences I had and which wines 
+                    I enjoyed most. That's when I came up with the idea to create an app that stores all this info.
+                    The app allows users to:</p>
+                        <li>log the wines they've tried and rate them</li>
+                        <li>track the wine farms they've visited and leave notes and photos on their experiences</li>
+                        <li>plan their next wine trip with discounts available from partners</li>
+                        <li>access to competitions and exclusive wine clubs</li>
+                        <li>linkt directly to wine farm websites and make enquiries</li>
+                <p> Having all this in one app, is a game changer, for both wine lovers and wine farms. And there's 
+                    plenty more upgrades that can be added to the app.</p>
+            </div>
+            <img class = "personal_img" src=".\wine_app.png " width = "300px" alt = "Wine App">
+        </article>
+        </section>
+
+        <section class = "contact">
+            <h1>Get in Touch</h1>
+            <h4>Click on a link below, or send me a message using the contact form.</h4>
+            <br>
+        <a href="mailto:Admin@example.com">Email Me</a>
+        <br>
+        <br>
+        <a href="tel:+447123456789">Call Me</a>
+
+
+        <form>
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" name="name_input" id="name">
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="email_input" id="email">
+            <br>
+            <label for="message">Message:</label>
+            <br>
+            <textarea name="message_input" id="message" rows="5"></textarea>
+            <br>
+            <!-- input type = button is not for submitting forms, it is for javascript actions -->
+            <button class = "submit" type="submit">Submit</button>
+            <br>
+        </form>
+
+        </section>
+        
+
+    </main>
+
+    <footer>
+        <a href="#LinkedIn">LinkedIn</a>
+        <a href="#GitHub">GitHub</a>
+        <p id="copyright">&copy; 2025 Eve-Lyn Bremner</p>
+    </footer>
+
 </body>
+
 </html>
