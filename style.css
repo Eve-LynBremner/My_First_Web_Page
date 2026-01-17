@@ -1,0 +1,131 @@
+:root {
+    font-size: 17px;
+    font-family: 'Century Gothic', Arial, Sans-serif;
+    background-color: rgba(229, 234, 234, 0.132);
+    color: rgb(41, 40, 40);
+}
+
+header {
+    text-align: center;
+    background-color: rgb(113, 113, 113);
+    padding: 0;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}   
+
+nav {
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    padding: 10px;
+    font-size: 20px;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    right: 0;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+a {
+    margin: 5%;
+}
+
+.about {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    font-size: 17px;
+}
+
+.about img,
+.about p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.about_paragraph {
+    max-width: 490px;
+    padding: 10px;
+}
+
+img {
+    border-radius: 5%;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#copyright {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+form {
+    margin: 10px;
+    margin-bottom: 100px;
+    margin-top: 50px; 
+    font-size: 18px;
+}
+
+.freelance {
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    margin: 20px;
+    background-color: rgba(214, 214, 214, 0.215);
+    width: 70%;
+}
+
+.freelance img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.freelance div {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    max-width: 450px;
+}
+
+.personal {
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    margin: 20px;
+    background-color: rgba(214, 214, 214, 0.215);
+    width: 70%;
+}
+
+.personal img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.personal div {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    max-width: 450px;
+}
+
+.contact {
+    margin: 5%;
+}
+
+.submit {
+    font-size: large;
+}
